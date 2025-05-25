@@ -12,5 +12,10 @@ namespace TestDem.Utils
     {
         public static Frame CurrentFrame { get; set; }
         public static Window Root { get; set; }
+
+        public void NavigateTo(Page page)
+        {
+            CurrentFrame.Navigate(page);
+        }
     }
 }
