@@ -17,7 +17,6 @@ namespace TestDEMNet.Context
         public DbSet<Product> Products { get; set; }
         public DbSet<Partner> Partners { get; set; }
 
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);

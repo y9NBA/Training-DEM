@@ -12,7 +12,7 @@
         <Frame x:Name="MainFrame" Visibility="Visible" NavigationUIVisibility="Hidden"/>
 
         <StackPanel x:Name="BackBtnsStack" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Bottom">
-            
+            <Label Content="AKDKADKASKDJ"/>
         </StackPanel>
     </Grid>
 </Window>
